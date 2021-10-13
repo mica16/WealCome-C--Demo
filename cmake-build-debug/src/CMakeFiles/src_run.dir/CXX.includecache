@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wealcome/CLionProjects/wealcome-c++-demo/src/Position.h
+vector
+-
+iostream
+-
+
+/Users/wealcome/CLionProjects/wealcome-c++-demo/src/main.cpp
+main.h
+/Users/wealcome/CLionProjects/wealcome-c++-demo/src/main.h
+Position.h
+/Users/wealcome/CLionProjects/wealcome-c++-demo/src/Position.h
+
+/Users/wealcome/CLionProjects/wealcome-c++-demo/src/main.h
+

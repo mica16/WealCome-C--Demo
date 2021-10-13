@@ -1,0 +1,13 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/wealcome/CLionProjects/wealcome-c++-demo
+-- Configuring done
+CMake Error at src/CMakeLists.txt:12 (add_library):
+  Cannot find source file:
+
+    Floor.cpp
+
+
+CMake Error at src/CMakeLists.txt:12 (add_library):
+  No SOURCES given to target: src
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
