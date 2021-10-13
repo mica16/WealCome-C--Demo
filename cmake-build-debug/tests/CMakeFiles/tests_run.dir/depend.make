@@ -37,4 +37,5 @@ tests/CMakeFiles/tests_run.dir/PalindromeTest.cpp.o: \
  ../tests/lib/googletest/include/gtest/internal/gtest-port.h \
  ../tests/lib/googletest/include/gtest/internal/gtest-string.h \
  ../tests/lib/googletest/include/gtest/internal/gtest-type-util.h \
+ ../src/Palindrome.cpp \
  ../tests/PalindromeTest.cpp

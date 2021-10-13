@@ -528,7 +528,15 @@ cxxabi.h
 acxx_demangle.h
 -
 
+/Users/wealcome/CLionProjects/wealcome-c++-demo/src/Palindrome.cpp
+string
+-
+vector
+-
+
 /Users/wealcome/CLionProjects/wealcome-c++-demo/tests/PalindromeTest.cpp
 gmock/gmock.h
 /Users/wealcome/CLionProjects/wealcome-c++-demo/tests/gmock/gmock.h
+../src/Palindrome.cpp
+/Users/wealcome/CLionProjects/wealcome-c++-demo/src/Palindrome.cpp
 
