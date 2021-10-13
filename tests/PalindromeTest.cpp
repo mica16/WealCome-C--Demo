@@ -6,5 +6,5 @@ int main(int argc, char **argv) {
 }
 
 TEST(PalindromeCheckerSuite, DummyTestForExample) {
-    EXPECT_THAT(1, testing::Eq(1));
+    EXPECT_THAT(1, testing::Eq(2));
 }
