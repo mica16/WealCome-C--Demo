@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wealcome/CLionProjects/wealcome-c++-demo/src/main.cpp
+iostream
+-
+palindrome.cpp
+/Users/wealcome/CLionProjects/wealcome-c++-demo/src/palindrome.cpp
+
+/Users/wealcome/CLionProjects/wealcome-c++-demo/src/palindrome.cpp
+string
+-
+vector
+-
+palindromes-store/palindromesStore.h
+/Users/wealcome/CLionProjects/wealcome-c++-demo/src/palindromes-store/palindromesStore.h
+
+/Users/wealcome/CLionProjects/wealcome-c++-demo/src/palindromes-store/palindromesStore.h
+

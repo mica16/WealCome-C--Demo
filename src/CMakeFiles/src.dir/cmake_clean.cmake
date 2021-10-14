@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/src.dir/palindrome.cpp.o"
-  "CMakeFiles/src.dir/palindrome.cpp.o.d"
+  "CMakeFiles/src.dir/palindromes-store/palindromesStoreStub.cpp.o"
   "libsrc.a"
   "libsrc.pdb"
 )

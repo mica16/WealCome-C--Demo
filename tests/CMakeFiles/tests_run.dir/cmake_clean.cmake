@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tests_run.dir/PalindromeTest.cpp.o"
-  "CMakeFiles/tests_run.dir/PalindromeTest.cpp.o.d"
   "tests_run"
   "tests_run.pdb"
 )

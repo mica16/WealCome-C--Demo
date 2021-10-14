@@ -1,24 +1,28 @@
 #include <string>
 #include <vector>
+#include "palindromes-store/palindromesStore.h"
 
 class Palindrome {
 
 public:
-    std::vector<std::string> static findPalindromes(const std::string &str) {
+    std::vector<std::string> static findPalindromes(const std::string &str, PalindromesStore &palindromesStore) {
         std::vector<std::string> foundPalindromes = {};
         _findPalindromes(str, foundPalindromes);
+        palindromesStore.store(foundPalindromes);
         return {foundPalindromes};
     }
 
 private:
     void static _findPalindromes(const std::string &str, std::vector<std::string> &foundPalindromes) {
-        const auto spaceIndex = str.find(' ');
-        const auto currentWord = str.substr(0, spaceIndex);
+        auto str2 = str; 
+        std::replace(str2.begin(), str2.end(), '\'', ' ');
+        const auto spaceIndex = str2.find(' ');
+        const auto currentWord = str2.substr(0, spaceIndex);
         if (isPalindrome(currentWord))
             foundPalindromes.push_back(currentWord);
         if (noNextWord(spaceIndex))
             return;
-        checkNextWord(str, foundPalindromes, spaceIndex);
+        checkNextWord(str2, foundPalindromes, spaceIndex);
     }
 
     static bool noNextWord(const unsigned long spaceIndex) { return spaceIndex == std::string::npos; }
